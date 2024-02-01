@@ -1,0 +1,361 @@
+body{
+    background-image: linear-gradient(to bottom,#EAE0DA,#EAE0DA);
+}
+.navbar{
+    background-size:cover;
+    border-bottom:2px solid #5881ad;
+}
+header{
+    text-align: center;    
+    font-style: normal;
+}
+.rainbowicon{
+    width:7vmax;
+    height: 7vmax;
+    margin-right: 3vmax;
+    margin-left: 1vmax;
+}
+.topic{
+    font-size: 5vmax;
+    font-family: 'Allura', cursive;
+    margin-right: 10%;
+    margin-top: 1vmax; 
+}
+h2{
+    font-family: 'Lobster', cursive;
+    margin: 1.5vmax;
+}
+.weather_today{
+    margin-top: 2vmax;
+    width:100vw;
+    height:max-content;
+    border-radius: 15%;
+    border-style:solid;
+    border-width: 0.7vmax;
+    border-color:#524d638e;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;  
+    background-color: #93bde08e;  
+}
+.weather_details{
+    margin-top: 6vmax;
+    margin-left: 6vmax;
+    margin-right: 6vmax;
+}
+.weather_city{
+    font-size: 5vmax;
+    font-family: 'Pangolin', cursive;
+    color: #455b71;
+}
+.weather_day1{
+    font-size: 2.3vmax;
+    
+    font-family: 'Pangolin', cursive;
+}
+.weather_time{
+    font-size: 1.7vmax;
+    margin-bottom: 5vmax;
+    font-family: 'Pangolin', cursive;
+}
+.weather_temperature{
+    margin: 6vmax;
+}
+.weather_image{
+    width:25vmin;
+    height:25vmin;
+    margin-top: 5vmax;
+}
+.weather_indicator{
+    display: block;    
+}
+.weather_indicator::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind::before{
+    background-image: url(assets/icons/wind.png);    
+}
+.weather_indicator-pressure{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_indicator2{
+    display: block;    
+}
+.weather_indicator2::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity2{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity2::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind2{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind2::before{
+    background-image: url(assets/icons/wind.png);    
+}
+
+.weather_indicator-pressure2{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure2::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_indicator3::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity3{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity3::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind3{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind3::before{
+    background-image: url(assets/icons/wind.png);    
+}
+.weather_indicator-pressure3{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure3::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_indicator4::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity4{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity4::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind4{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind4::before{
+    background-image: url(assets/icons/wind.png);    
+}
+.weather_indicator-pressure4{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure4::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_indicator5::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity5{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity5::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind5{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind5::before{
+    background-image: url(assets/icons/wind.png);    
+}
+.weather_indicator-pressure5{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure5::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_indicator6::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity6{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity6::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind6{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind6::before{
+    background-image: url(assets/icons/wind.png);    
+}
+.weather_indicator-pressure6{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure6::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_indicator7::before{
+    content: '';
+    display: inline-block;    
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.weather_indicator-humidity7{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-humidity7::before{
+    background-image: url(assets/icons/humidity.png);    
+}
+.weather_indicator-wind7{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;
+}
+.weather_indicator-wind7::before{
+    background-image: url(assets/icons/wind.png);    
+}
+.weather_indicator-pressure7{
+    margin-top: 3vmax;
+    font-size: 1.5vmax;
+    display: flex;    
+}
+.weather_indicator-pressure7::before{
+    background-image: url(assets/icons/pressure.png);
+}
+.weather_temperature{
+    font-size: 3vmax;
+    font-weight: 700;
+    /* background-color: #ABD9FF; */
+    color: #455b71;
+    height: max-content;
+    width: max-content;
+    border-radius: 7%;
+}
+.twodays{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content:space-around; 
+    flex-wrap: wrap;   
+}
+.day-2{
+    width: 30vw;
+    height: max-content;
+    border-radius: 8%;
+    border: 5px solid #edf5f9 ;
+    background-color: #648bb558;  
+}
+.tempsize{
+    font-size: 2vmax;
+    color: #8b8078;
+    font-family: 'Pangolin', cursive;
+}
+.lead{
+    font-size: 2vmax;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(98, 73, 101);
+}
+.weather_forecast_icon{
+    width:10vmin;
+    height:10vmin;
+}
+footer {
+    font-size: 3vmax;
+    font-weight: 700;
+    font-style: italic;
+    /* background-color: #7D6E83; */
+    color: rgb(91, 87, 82);
+    font-family: 'Amatic SC', cursive;
+    padding-left: 9vmax;
+    padding-top: 1.5vmax;
+    padding-bottom: 1.5vmax;
+}
